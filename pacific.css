@@ -1,0 +1,245 @@
+body{background-color:#FFFFFF; 
+     color:#666666;
+     background-image: url(ptrbackground.jpg);
+}
+
+header{background-color:#000033;
+      color:#FFFFFF;
+	  background-image:url(sunset.jpg);
+	  background-position:right;
+	  background-repeat:no-repeat;
+}
+
+nav {
+	padding: 20px 5px 5px 20px;
+	font-weight: bold;
+	width: 160px;
+	float: left;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;
+	font-size: 1.2em;	
+}
+
+nav a{text-decoration:none;
+}
+
+nav a:link{color:#000033;
+          transition-duration:3s;
+          transition-timing-function: ease-out; 
+}
+
+nav a:visited{color:#344873;
+}
+
+nav a:hover{color:#FFFFFF;
+}
+
+h2{color:#3399CC;
+   font-family:"Times New Roman",georgia,serif;
+   text-shadow: 1px 1px 1px #ccc;
+}
+
+dt{color:#000033;
+}
+
+.resort{color:#5C7FA3;
+        font-weight: bold;
+}
+
+h1{margin-bottom: 0;
+   padding: 10px;
+   font: "Times New Roman",georgia,serif;
+}
+
+h3 {color:#000033;
+    font:"Times New Roman",georgia,serif;
+}
+
+#content{padding-top: 1px;
+         padding-right: 20px;
+		 padding-left: 30px;
+		 padding-bottom: 20px;
+         background-color: #FFFFFF;
+		 margin-left: 190px;
+}
+
+#content img, #content video, #content embed {float:left;
+                                            padding-right:20px;
+}
+
+#content ul{list-style-position: inside;
+            list-style-image: url("marker.gif");  
+			padding-right:20px;
+}
+
+#contact{font-size:90%;
+}
+
+footer{padding:20px;
+       font-size:75%;
+	   font-style: italic;
+	   font-family:"Times New Roman",georgia,serif;
+       background-color: #FFFFFF;
+	   margin-left:190px;
+}
+
+#wrapper{box-shadow: 5px 5px 5px #000033;
+         width:80%;
+		 background-color:#90C7E3;
+		 min-width: 960px;
+		 margin:auto;
+}
+
+table{border:1 px solid #3399CC;
+      width: 80%;
+	  border-spacing:0;
+}
+
+th td{padding: 5px;
+      border:solid 1px #3399CC;
+}
+
+td {text-align:center;
+}
+
+.text{text-align:left;
+}
+
+tr:nth-of-type(odd){background-color:#AEAFFC;
+}
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article{display: block;
+}
+
+label{float:left;
+     display:block;
+	 text-align:right;
+	 width:120px;
+	 padding-right:120px;
+}
+
+input,textarea{display:block;
+	        margin-bottom:20px;
+}
+
+#gallery img{float:none;
+			text-align:left;
+			border-style:none;
+}
+
+#gallery a{text-decoration:none;
+          font-style:none;
+		  color:#000000;
+		  text-align:center;
+}
+
+#gallery{position: relative;
+         height:200px;
+}
+
+#gallery ul{list-style-type:none;
+           width:300px;
+}
+
+#gallery li{display:inline;
+          float:left;
+		  padding:10px;
+}
+
+#gallery a:hover span{position: absolute; 
+                    top:16px; 
+					left:320px;
+                    text-align:center; 
+					opacity:1;
+}
+
+#gallery span{position:absolute;
+             left:-1000px;
+             opacity:0;	
+             -webkit-transition:opacity 3s ease-in-out;
+			 -moz-transition:opacity 3s ease-in-out;
+			 -o-transition:opacity 3s ease-in-out;
+			 transition:opacity 3s ease-in-out;
+}
+
+figure{position:absolute;
+     left:280px;
+	 text-align:center;
+	 opacity:0.25;
+}
+
+#mobile{display:inline;
+}
+
+#desktop{display:none;
+}
+
+@media only screen and (max-width: 768px){
+body{margin:0;
+}
+#wrapper{min-width:0;
+width: auto;
+}
+#content{Margin-left:0;
+}
+nav{float:none;
+width: auto;
+padding:0;
+}
+nav ul{text-align:center;
+}
+nav li{display:inline;
+padding-top:0;
+padding-bottom:0;
+padding-right: 0.75em;
+padding-left: 0.75em;
+}
+footer{margin-left:0;
+}
+}
+@media only screen and (max-width: 480px){
+body{margin:0;
+}
+#wrapper{width:auto;
+         min-width:0;
+		 margin:0;
+}
+#content:{padding-top:0.1 em;
+          padding-bottom:0.1 em;
+		  padding-left: 1em;
+		  padding-right: 1em;
+		  margin:0;
+		  font-size:90%;
+}
+h1{margin:0;
+   font-size:1.5em;
+   padding-left:0.3em;
+}
+nav ul{padding:0;
+}
+nav li{display:block;
+     margin:0;
+	 border-bottom: 2px solid #330000;
+}
+nav a:link{display:block;
+}
+#content img{float:none;
+            padding:0;
+			margin:0.1em;
+}
+#content ul{list-style-position:outside;
+}
+#mobile{display:inline;
+}
+#desktop{display:none;
+}
+label{float:none;
+      text-align:none;
+}
+}
+
+ 

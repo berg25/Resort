@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Pacific Trails Resort:: Reservations </Title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta Charset="utf-8">
+	<link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+<div id="wrapper">
+	<header> 
+		<h1> Pacific Trails Resort</h1>
+	</header>
+	<nav> 
+	<ul>
+		<li><a href="index.html"><b>Home</b></a> </li> 
+		<li><a href="yurts.html"><b>Yurts</b></a> </li>
+		<li><a href="activities.html"><b>Activities</b></a> </li>
+		<li><a href="reservations.html"><b>Reservations</b></a> </li>
+	</ul>
+	</nav>
+
+<main id="content"> 
+	<h2> Reservations at Pacific Trails</h2> 
+	<h3> Contact us Today!</h3>
+	<p>Required fields are mrked with an astirisk*</p>
+<form action="http://webdevbasics.net/scripts/pacific.php">
+	<label for="myfirstname">*First Name</label>
+	<input type="text" name="myFirstName" id="myFirstName"
+	required="required" placeholder="your first name">
+	<label for="myLastName">*Last Name</label>
+	<input type="text" name="myLastname"
+	id="myLastName" required="required"
+	placeholder="your last name">
+	<label for="myEmail">*E-mail</label>
+	<input type="email" name="myEmail" 
+	id="myEmail" required="required"
+	placeholder="you@yourdomain.com">
+    <label for="myPhone">Phone</label>
+	<input type="tel" name="myPhone"
+	id="myPhone" required="required"
+	placeholder="Phone">
+	<label for="date">Arrival Date</label>
+	<input type="date" name="arrivaldate" id="arrivalDate">
+	<label for="nights">Nights</label>
+	<input type="number" name="nights" id="nights" min="1" max="14">
+	<label for="mycomments">*Comments</label>
+	<textarea name="mycomments"id="mycomments"
+	rows="2" cols="32"
+	required="required"
+	placeholder="your comments here">
+	</textarea>
+	<input type="submit" value="submit">
+</form>
+	<div id="contact">
+		<p><span class="resort">Pacific Trails Resort</span>
+		<br>12010 Pacific Trails Road
+		<br>Zephyr , CA 95555
+		<br>
+		<br><a id="mobile" href="tel:888-555-5555">888-555-5555</a>
+		<br><a id="desktop">888-555-5555</span></P>
+	</div> 
+</main>
+<footer>
+	Copyright &copy; 2014 Pacific Trails Reosrt
+	<br>
+	<a href="mailto:Brendan@berg.com">Brendan@berg.com</a>
+</footer>
+</div> 
+</body>
+</html>

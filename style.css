@@ -1,0 +1,769 @@
+.background-image{
+     background-image: url(sliderbackground.jpg);
+     background-color:#000000;
+     background-repeat:no-repeat;
+	   background-size:100% 110%;
+     height:100vh;
+     width:100vw;
+     text-align:center;
+     padding-top: 50px;
+  }
+
+.center{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+ul{
+ list-style-type: none;
+
+  }
+
+.newmovie{
+  background-color:#ffffff;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-image: url(moviebackground.jpg);
+  height:100vh;
+  width:100vw;
+  color:#ffffff;
+  text-align: right;
+  font-size: 25px;
+
+}
+
+span{
+  color:purple;
+}
+
+.comics{
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-style:tradegothiclt-bold;
+  padding-top: 20px;
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-bottom: 50px;
+}
+
+.tvnews{
+  background-color:#000000;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  height:50vh;
+  width:100vw;
+  color:#ffffff;
+  text-align: right;
+  font-size: 30px;
+  text-align: center;
+  flex-direction: row;
+}
+
+.shield{
+  background-color:#ffffff;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-image: url(shield.jpg);
+  height:80vh;
+  width:100vw;
+  color:#ffffff;
+  font-size: 25px;
+}
+
+.movie{
+  background-color: #000000;
+  text-align: center;
+  color:#ffffff;
+  font-size: 30px;
+  font-style: tradegothicbold;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.background-video{
+  background-color: #000000;
+  padding-left: 210px;
+}
+
+.bio{    font-size: 20px;
+         text-align:center;
+		     margin: auto;
+         width: 60%;
+         padding: 10px;
+         flex-direction: row;
+}
+
+/* antman page */
+.antman-background{
+   background-color: #000000;
+   padding-left: 200px;
+
+}
+
+.antman-info {
+  font-size: 20px;
+  text-align:center;
+		     margin: auto;
+         width: 60%;
+         padding: 10px;
+}
+
+/* Civial War page */
+.civilwar{
+  background-color: #000000;
+  padding-left:200px;
+
+}
+
+.civilwarbio{
+  font-size: 20px;
+  text-align:center;
+		     margin: auto;
+         width: 60%;
+         padding: 10px;
+}
+
+
+/* characters page */
+.img-circle{
+  border-radius: 100px;
+}
+  .spiderman-image{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+	   background-size:100% 100%;
+     background-image: url(spidermanbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+  }
+
+  .spiderinfo{
+    color:#ffffff;
+    padding-left:210px;
+    padding-right: 200px;
+  }
+
+
+.spideyimage{
+  float:right;
+}
+
+.captainmarvel{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(captainmarvelbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.hulk{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(hulkbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.thor{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(thorbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.ironman{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(ironmanbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.lukecage{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(lukecagebackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.blackwidow{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(blackwidowbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.daredevil{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(daredevilbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.captainamerica{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(captainamericabackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.wolverine{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(wolverinebackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.ultron{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(ultronbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.redskull{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(backgroundimage1.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.mystique{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(backgroundimage1.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.thanos{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(thanosbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.magneto{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(magnetobackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.drdoom{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(drdoombackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.greengoblin{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(greengoblinbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.blackcat{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(backgroundimage1.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.loki{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(lokibackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.avengers{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(avengersbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.guardians{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(guardiansbackground.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.fantasticfour{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(backgroundimage1.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+.evilmutants{
+
+     background-color:#ffffff;
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+     background-image: url(backgroundimage1.gif);
+     height:100vh;
+     width:100vw;
+     font-size:60px;
+     font-weight:bold;
+     color:#ffffff;
+     font-style: Bree serif;
+     text-align:center;
+     padding-top: 50px;
+
+
+}
+
+
+.navbar-left{
+  margin-left: 0px;
+
+}
+
+#phases{
+  background-color: #000000;
+  background-size: cover;
+  text-align: center;
+  flex: column;
+  padding-top: 50px;
+  color:#ffffff;
+  font-size: 25px;
+
+}
+
+#page-wrapper{
+
+  background-size: cover;
+  background-color: #ffffff;
+  text-align: center;
+  /*display: flex;*/
+  /flex: column;
+  padding-left: 220px;
+  padding-right: 220px;
+  color:#000000;
+  padding-top: 50px;
+  margin-bottom: 0;
+
+}
+
+
+#page-wrapper2{
+
+  background-size: cover;
+  background-color: #ffffff;
+  text-align: center;
+  /*display: flex;*/
+  /flex: column;
+  padding-left: 220px;
+  padding-right: 220px;
+  color:#000000;
+  margin-top: 0;
+}
+
+#page-wrapper3{
+
+  background-size: cover;
+  background-color: #ffffff;
+  text-align: center;
+  /*display: flex;*/
+  /flex: column;
+  padding-left: 220px;
+  padding-right: 220px;
+  color:#000000;
+}
+
+
+
+hr {
+	  height: 20px;
+	  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    color:#ffffff;
+
+}
+
+body{
+  margin:0;
+  margin-bottom: 0;
+
+}
+
+.navbar-header{
+  margin-bottom: 0;
+}
+
+footer{
+  background-color: #2c2c2c;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  color:#ffffff;
+  padding-top: 10px;
+
+}
+
+@media only screen and (max-width: 768px){
+  body{margin:0;
+  }
+
+  #page-wrapper{min-width:0;
+           width: auto;
+  }
+
+  .newmovie{
+            padding-top:0.1 em;
+            padding-bottom:0.1 em;
+            padding-left: 1em;
+            padding-right: 1em;
+            margin:0;
+            font-size:90%;
+            background-color: red;
+  }
+
+  #content{
+    margin-left:0;
+  }
+
+  nav{
+    float:none;
+    width: auto;
+    padding:0;
+  }
+
+  nav ul{
+    text-align:center;
+  }
+
+  nav li{
+  display:inline;
+  padding-top:0;
+  padding-bottom:0;
+  padding-right: 0.75em;
+  padding-left: 0.75em;
+  }
+
+  footer{margin-left:0;
+
+  }
+  }
+
+  @media only screen and (max-width: 480px){
+  body{margin:0;
+  }
+
+
+  #page-wrapper{width:auto;
+                min-width:0;
+  		          margin:0;
+
+  }
+
+  .newmovie{
+            padding-top:0.1 em;
+            padding-bottom:0.1 em;
+  		      padding-left: 1em;
+  		      padding-right: 1em;
+  		      margin:0;
+  		      font-size:90%;
+            background-color: red;
+  }
+
+  .newmovie < img{
+    float:none;
+    padding:0;
+    margin:0.1em;
+    
+  }
+
+.background-image{
+  background-color:#000000;
+}
+  h1{
+     margin:0;
+     font-size:1.5em;
+     padding-left:0.3em;
+  }
+
+  nav ul{
+    padding:0;
+  }
+
+  nav li{
+         display:block;
+         margin:0;
+
+  }
+
+  nav a:link{
+    display:block;
+  }
+
+  #content img{
+               float:none;
+               padding:0;
+  			       margin:0.1em;
+  }
+
+  #content ul{
+    list-style-position:outside;
+  }
+
+  #mobile{
+    display:inline;
+  }
+
+  #desktop{
+    display:none;
+  }
+
+  label{
+        float:none;
+        text-align:none;
+  }
+  }
